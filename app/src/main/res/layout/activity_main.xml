@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgxtreme"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <!--Logo Empresa-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:src="@drawable/ic_greenmulti" />
+
+        <!--Usuario-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="@string/usuario"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/userText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/placeholder"
+                android:drawableStart="@drawable/ic_login_user"
+                android:drawablePadding="15dp"
+                android:inputType="textPersonName"
+                android:textSize="19sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Contraseña-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/white"
+            android:hint="@string/contraseña"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/placeholder"
+                android:drawableStart="@drawable/ic_login_key"
+                android:drawablePadding="15dp"
+                android:inputType="textPassword"
+                android:textSize="19sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Clave del operador-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:hint="@string/operador"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/userOp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/placeholder"
+                android:drawableStart="@drawable/ic_id"
+                android:drawablePadding="15dp"
+                android:inputType="text"
+                android:textSize="19sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--CheckBox-->
+        <CheckBox
+            android:id="@+id/checkbox_login"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:text="@string/checkbox"
+            android:textColor="@color/white" />
+
+        <!--Boton Login-->
+        <Button
+            android:id="@+id/btn_loginMain"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/btn_shadow"
+            app:backgroundTint="@color/white"
+            android:text="@string/btnLogin"
+            android:textColor="@color/xtreme_2_1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
