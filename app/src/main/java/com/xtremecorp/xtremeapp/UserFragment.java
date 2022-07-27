@@ -86,10 +86,7 @@ public class UserFragment extends Fragment {
                 logout();
             }
         });
-
         return root;
-
-
     }
 
     /** Método para cerrar sesión **/

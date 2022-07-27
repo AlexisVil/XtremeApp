@@ -12,6 +12,7 @@
         android:gravity="center"
         android:orientation="vertical"
         tool:ignore="UselessParent"
+        android:paddingTop="30dp"
         >
 
         <!--Animation Files-->

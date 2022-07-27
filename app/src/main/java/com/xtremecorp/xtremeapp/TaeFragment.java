@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,10 +58,32 @@ public class TaeFragment extends Fragment {
         }
     }
 
+    ImageButton TelcelBtn, MovistarBtn, VirginBtn, AttBtn, BaitBtn;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tae, container, false);
+        View root = inflater.inflate(R.layout.fragment_tae, container, false);
+        TelcelBtn = root.findViewById(R.id.btn_telcel);
+        MovistarBtn = root.findViewById(R.id.movistar);
+        VirginBtn = root.findViewById(R.id.virgin);
+        AttBtn = root.findViewById(R.id.att);
+        BaitBtn = root.findViewById(R.id.bait);
+
+        productSelection(TelcelBtn);
+        productSelection(MovistarBtn);
+
+
+
+        return root;
+    }
+
+    public void productSelection(ImageButton imageButton){
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(), "boton " , Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

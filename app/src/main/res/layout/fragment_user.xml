@@ -27,7 +27,45 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
+        <!--Reportar Pago-->
+        <Button
+            android:id="@+id/btn_pago"
+            app:backgroundTint="@color/white"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
 
+            android:background="@drawable/btn_shadow"
+            android:gravity="center"
+            android:text="@string/btn_pago"
+            android:textColor="@color/xtreme_2_1" />
+        <!--Boton Ventas Recientes-->
+        <Button
+            android:id="@+id/btn_ventas"
+            app:backgroundTint="@color/white"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/btn_shadow"
+            android:gravity="center"
+            android:text="@string/btn_ventas"
+            android:textColor="@color/xtreme_2_1" />
+        <!--Boton Saldo-->
+        <Button
+            android:id="@+id/btn_saldo"
+            app:backgroundTint="@color/white"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/btn_shadow"
+            android:gravity="center"
+            android:text="@string/btn_saldo"
+            android:textColor="@color/xtreme_2_1" />
         <!--Boton Cerrar Sesión-->
         <Button
             android:id="@+id/btn_signout"

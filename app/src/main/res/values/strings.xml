@@ -32,9 +32,21 @@
     <!--Fragments-->
     <string name="taefragment">Tae Recargas</string>
     <string name="servicefragment">Servicios pago</string>
-    <string name="userfragment">Usuario</string>
+    <string name="userfragment">Mi cuenta</string>
 
     <!--Fragmento TAE-->
-    <string name="tae_pantalla">Elige un Servicio</string>
+    <string name="tae_pantalla">Elige un producto</string>
+
+    <!--Fragmento Servicios-->
+    <string name="servicio_pantalla">Elige un servicio</string>
+
+    <!--Fragmento User-->
+    <string name="btn_saldo">Saldo Disponible</string>
+    <string name="btn_pago">Reportar Pago</string>
+    <string name="btn_ventas">Ventas recientes</string>
+
+    <!--SearchView-->
+    <string name="search">Buscar</string>
+    <string name="search_hint">Buscar producto</string>
 
 </resources>

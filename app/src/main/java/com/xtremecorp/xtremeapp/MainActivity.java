@@ -46,11 +46,9 @@ public class MainActivity extends AppCompatActivity {
 
         //ActionBar
         //Se agigna titulo y boton de regreso
-        ActionBar actionBar = getSupportActionBar();
-        assert actionBar != null; //Afirma que el titulo no es null
+        getSupportActionBar().hide();
+
         //Asigna un titulo
-        actionBar.setTitle("Iniciar Sesión");
-        actionBar.setDisplayShowHomeEnabled(true);
 
 
         //Conexión de vistas con la clase R

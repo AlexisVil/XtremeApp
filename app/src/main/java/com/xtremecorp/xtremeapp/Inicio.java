@@ -10,9 +10,11 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -41,7 +43,7 @@ public class Inicio extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null; //Afirma que el titulo no es null
         //Asigna un titulo
-        actionBar.setTitle("Buscar Producto");
+        actionBar.setTitle("Xtreme Multipagos");
         actionBar.setDisplayShowHomeEnabled(true);
 
 
@@ -52,6 +54,30 @@ public class Inicio extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         loadFragment(taeFragment);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.product_menu, menu);
+        MenuItem menuItem = menu.findItem(R.id.app_bar_search);
+        SearchView searchView = (SearchView) menuItem.getActionView();
+        searchView.setQueryHint("Buscar Producto");
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                return false;
+            }
+        });
+
+
+
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override

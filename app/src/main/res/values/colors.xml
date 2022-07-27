@@ -22,4 +22,8 @@
 
     <color name="placeholder">#6d7bb9</color>
 
+    <color name="stroke">#5E8E99F3</color>
+    <color name="image_btn">#CEB0BBEA</color>
+
+
 </resources>

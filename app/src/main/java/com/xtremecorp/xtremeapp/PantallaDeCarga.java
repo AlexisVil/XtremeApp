@@ -12,6 +12,9 @@ public class PantallaDeCarga extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_de_carga);
+
+        getSupportActionBar().hide();
+
         final int DURATION=2500;
 
         Handler handler = new Handler();

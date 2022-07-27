@@ -7,18 +7,21 @@
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/drawable/btn_personalizado.xml" value="0.1" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/drawable/btn_shadow.xml" value="0.214" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.204" />
+        <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.1215" />
+        <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/drawable/image_btn_custom.xml" value="0.1705" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/drawable/navigation.xml" value="0.2015" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/activity_inicio.xml" value="0.25" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/activity_pantalla_de_carga.xml" value="0.21829710144927536" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/cerrar_sesion.xml" value="0.25" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/fragment_service.xml" value="0.25" />
-        <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/fragment_tae.xml" value="0.25" />
+        <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/fragment_tae.xml" value="0.264" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/fragment_user.xml" value="0.25" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/iniciando_sesion.xml" value="0.25" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/no_sesion.xml" value="0.25" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/layout/pantalla_carga.xml" value="0.2760416666666667" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.264" />
+        <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/menu/product_menu.xml" value="0.25" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.204" />
         <entry key="..\:/Users/ALOPEZ/AndroidStudioProjects/XtremeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.204" />
       </map>
